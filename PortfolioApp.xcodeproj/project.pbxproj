@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		3BA5282C26ED8C5800746689 /* ExpirenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5282B26ED8C5800746689 /* ExpirenceView.swift */; };
 		3BA5282E26ED8EB000746689 /* ExpirencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5282D26ED8EB000746689 /* ExpirencesView.swift */; };
+		3BA5283226EE69DB00746689 /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5283126EE69DB00746689 /* EducationView.swift */; };
+		3BA5283426EE69F100746689 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5283326EE69F100746689 /* ProjectsView.swift */; };
+		3BA5283626EE6BCD00746689 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5283526EE6BCD00746689 /* ProjectView.swift */; };
+		3BA5283C26EE7FF900746689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA5283B26EE7FF900746689 /* Assets.xcassets */; };
 		3BA6877926E6878D002CF86F /* PortfolioAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA6877826E6878D002CF86F /* PortfolioAppApp.swift */; };
 		3BA6877B26E6878D002CF86F /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA6877A26E6878D002CF86F /* PortfolioView.swift */; };
-		3BA6877D26E6878E002CF86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA6877C26E6878E002CF86F /* Assets.xcassets */; };
 		3BA6878026E6878E002CF86F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA6877F26E6878E002CF86F /* Preview Assets.xcassets */; };
 		3BC310A926E68B2500C97841 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BC310A226E68B2400C97841 /* Montserrat-LightItalic.ttf */; };
 		3BC310AA26E68B2500C97841 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BC310A326E68B2400C97841 /* Montserrat-MediumItalic.ttf */; };
@@ -34,10 +37,13 @@
 /* Begin PBXFileReference section */
 		3BA5282B26ED8C5800746689 /* ExpirenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpirenceView.swift; sourceTree = "<group>"; };
 		3BA5282D26ED8EB000746689 /* ExpirencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpirencesView.swift; sourceTree = "<group>"; };
+		3BA5283126EE69DB00746689 /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
+		3BA5283326EE69F100746689 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		3BA5283526EE6BCD00746689 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		3BA5283B26EE7FF900746689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BA6877526E6878D002CF86F /* PortfolioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortfolioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA6877826E6878D002CF86F /* PortfolioAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioAppApp.swift; sourceTree = "<group>"; };
 		3BA6877A26E6878D002CF86F /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
-		3BA6877C26E6878E002CF86F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BA6877F26E6878E002CF86F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BA6878126E6878E002CF86F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BC310A226E68B2400C97841 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -95,8 +101,8 @@
 				3BC3109E26E689DF00C97841 /* Views */,
 				3BC3109D26E689D300C97841 /* Models */,
 				3BC3109C26E689C300C97841 /* Controllers */,
-				3BA6877C26E6878E002CF86F /* Assets.xcassets */,
 				3BA6878126E6878E002CF86F /* Info.plist */,
+				3BA5283B26EE7FF900746689 /* Assets.xcassets */,
 				3BA6877E26E6878E002CF86F /* Preview Content */,
 			);
 			path = PortfolioApp;
@@ -135,6 +141,9 @@
 				3BC310C426E99CBD00C97841 /* SkillsView.swift */,
 				3BA5282B26ED8C5800746689 /* ExpirenceView.swift */,
 				3BA5282D26ED8EB000746689 /* ExpirencesView.swift */,
+				3BA5283126EE69DB00746689 /* EducationView.swift */,
+				3BA5283326EE69F100746689 /* ProjectsView.swift */,
+				3BA5283526EE6BCD00746689 /* ProjectView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,8 +254,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BA6878026E6878E002CF86F /* Preview Assets.xcassets in Resources */,
-				3BA6877D26E6878E002CF86F /* Assets.xcassets in Resources */,
 				3BC310AE26E68B2500C97841 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				3BA5283C26EE7FF900746689 /* Assets.xcassets in Resources */,
 				3BC310AA26E68B2500C97841 /* Montserrat-MediumItalic.ttf in Resources */,
 				3BC310AB26E68B2500C97841 /* Montserrat-BoldItalic.ttf in Resources */,
 				3BC310AC26E68B2500C97841 /* Montserrat-Medium.ttf in Resources */,
@@ -269,11 +278,14 @@
 				3BC310B626E6F14500C97841 /* ColorExtension.swift in Sources */,
 				3BA5282E26ED8EB000746689 /* ExpirencesView.swift in Sources */,
 				3BC310BF26E6F41900C97841 /* AppModel.swift in Sources */,
+				3BA5283626EE6BCD00746689 /* ProjectView.swift in Sources */,
 				3BA6877B26E6878D002CF86F /* PortfolioView.swift in Sources */,
+				3BA5283426EE69F100746689 /* ProjectsView.swift in Sources */,
 				3BC310C526E99CBD00C97841 /* SkillsView.swift in Sources */,
 				3BC310B926E6F1BB00C97841 /* FontManager.swift in Sources */,
 				3BC310C326E70CED00C97841 /* SkillView.swift in Sources */,
 				3BA6877926E6878D002CF86F /* PortfolioAppApp.swift in Sources */,
+				3BA5283226EE69DB00746689 /* EducationView.swift in Sources */,
 				3BC310BD26E6F2BF00C97841 /* Portfolio.swift in Sources */,
 				3BC310C126E7098600C97841 /* HeaderView.swift in Sources */,
 			);

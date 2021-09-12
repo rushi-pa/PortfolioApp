@@ -12,6 +12,26 @@ struct skills : Identifiable {
     let skillName : String
     let image : String
 }
+//
+//struct skillsDetails : Identifiable{
+//    var id : String
+//    let name : String
+//    let image : String
+//    let details : String
+//}
+
+struct Projects : Identifiable {
+    var id : String
+    let projectName : String
+    let image : String
+    let projectDesc : String
+    let projectsDetails : [ProjectDetails]
+}
+
+struct ProjectDetails : Identifiable {
+    let id : String
+    var desc : String
+}
 
 struct Experience : Identifiable {
     var id : String
@@ -25,7 +45,7 @@ struct Portfolio{
     var role : String
     var description : String
     var Location : String
-    
+    let projects : [Projects]
     let skills : [skills]
     let experience : [Experience]
 }

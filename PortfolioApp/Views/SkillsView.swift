@@ -28,11 +28,13 @@ struct SkillsView: View {
                 }).buttonStyle(PlainButtonStyle());
             }
             if(skillIsShow)
-            {LazyVGrid(columns: [GridItem(), GridItem(), GridItem()], alignment: .leading, spacing: 12){
-                ForEach(skills){ skill in
-                    SkillView(skill: skill, width: (width / 3) - 15);
-                }
-            }.padding(.top,30)}
+            {
+                LazyVGrid(columns: [GridItem(), GridItem(), GridItem()], alignment: .leading, spacing: 12){
+                    ForEach(skills){ skill in
+                        
+                        SkillView(skill: skill, width: (width / 3) - 15);
+                    }
+                }.padding(.top,30)}
         }.padding()
     }
 }

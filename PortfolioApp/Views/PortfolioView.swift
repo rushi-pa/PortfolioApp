@@ -21,6 +21,9 @@ struct PortfolioView: View {
                     
                     ExpirencesView(expirences: appModel.portfolio.experience)
                         .padding(.top,20)
+                    Spacer()
+                    ProjectsView(projects: appModel.portfolio.projects)
+                        .padding(.top,7)
                 }.padding(12)
             }
         }

@@ -11,16 +11,16 @@ struct ExpirenceView: View {
     var experience : Experience
     var body: some View {
         VStack(alignment: .leading){
-            Circle().frame(width: 10, height: 10)
-                .opacity(0.65)
+            HStack{
+                Circle().frame(width: 10, height: 10)
+                    .opacity(0.65)
+                Text(experience.role)
+                    .font(Montserrat.semibold.font(size: 18.5)).padding(.leading,8)}
             HStack{
                 RoundedRectangle(cornerRadius: 8)
                     .frame(width : 3)
                     .padding(.leading,3);
                 VStack(alignment: .leading){
-                    Text(experience.role)
-                        .font(Montserrat.semibold.font(size: 18.5));
-                    
                     Text(experience.companyName)
                         .font(Montserrat.medium.font(size: 16.5))
                         .opacity(0.75)
@@ -33,7 +33,7 @@ struct ExpirenceView: View {
                     
                     
                 }.padding(.leading,16)
-            }.padding(.top,8)
+            }
         }.fixedSize()
     }
 }
@@ -41,8 +41,8 @@ struct ExpirenceView: View {
 struct ExpirenceView_Previews: PreviewProvider {
     static var previews: some View {
         GeometryReader {proxy in
-        ExpirenceView(experience: AppModel().portfolio.experience[0])
-            .padding(24)
+            ExpirenceView(experience: AppModel().portfolio.experience[0])
+                .padding(24)
         }
     }
 }

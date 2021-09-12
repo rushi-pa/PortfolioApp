@@ -12,9 +12,11 @@ struct SkillView: View {
     var width : CGFloat = 120
     var body: some View {
         VStack{
-            Image(systemName: skill.image)
-                .font(.system(size: 35, weight: .medium))
-                .opacity(0.8);
+            
+            Image(skill.image)
+                .resizable()
+                .frame(width: 60, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .font(.system(size: 10, weight: .medium))
             Text(skill.skillName)
                 .font(Montserrat.semibold.font(size: 13.5))
                 .padding(.top,10)
@@ -27,6 +29,6 @@ struct SkillView: View {
 
 struct SkillView_Previews: PreviewProvider {
     static var previews: some View {
-        SkillView(skill: AppModel().portfolio.skills[0])
+        SkillView(skill: AppModel().portfolio.skills[3])
     }
 }
