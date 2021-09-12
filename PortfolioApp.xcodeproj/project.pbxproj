@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BA5282C26ED8C5800746689 /* ExpirenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5282B26ED8C5800746689 /* ExpirenceView.swift */; };
+		3BA5282E26ED8EB000746689 /* ExpirencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5282D26ED8EB000746689 /* ExpirencesView.swift */; };
 		3BA6877926E6878D002CF86F /* PortfolioAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA6877826E6878D002CF86F /* PortfolioAppApp.swift */; };
 		3BA6877B26E6878D002CF86F /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA6877A26E6878D002CF86F /* PortfolioView.swift */; };
 		3BA6877D26E6878E002CF86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA6877C26E6878E002CF86F /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BA5282B26ED8C5800746689 /* ExpirenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpirenceView.swift; sourceTree = "<group>"; };
+		3BA5282D26ED8EB000746689 /* ExpirencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpirencesView.swift; sourceTree = "<group>"; };
 		3BA6877526E6878D002CF86F /* PortfolioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortfolioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA6877826E6878D002CF86F /* PortfolioAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioAppApp.swift; sourceTree = "<group>"; };
 		3BA6877A26E6878D002CF86F /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				3BC310C026E7098600C97841 /* HeaderView.swift */,
 				3BC310C226E70CED00C97841 /* SkillView.swift */,
 				3BC310C426E99CBD00C97841 /* SkillsView.swift */,
+				3BA5282B26ED8C5800746689 /* ExpirenceView.swift */,
+				3BA5282D26ED8EB000746689 /* ExpirencesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA5282C26ED8C5800746689 /* ExpirenceView.swift in Sources */,
 				3BC310B626E6F14500C97841 /* ColorExtension.swift in Sources */,
+				3BA5282E26ED8EB000746689 /* ExpirencesView.swift in Sources */,
 				3BC310BF26E6F41900C97841 /* AppModel.swift in Sources */,
 				3BA6877B26E6878D002CF86F /* PortfolioView.swift in Sources */,
 				3BC310C526E99CBD00C97841 /* SkillsView.swift in Sources */,

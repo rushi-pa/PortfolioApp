@@ -11,8 +11,12 @@ struct HeaderView: View {
     var appModel : AppModel
     var body: some View {
         VStack {
-            Image("5aae85ed-bc90-4119-8cf8-3dfd8a278544-1").resizable().frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                .clipped().clipShape(Circle()).padding(4).background(Circle().opacity(0.7).shadow(radius: 5));
+            HStack {
+                Spacer()
+                Image("5aae85ed-bc90-4119-8cf8-3dfd8a278544-1").resizable().frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .clipped().clipShape(Circle()).padding(4).background(Circle().opacity(0.7).shadow(radius: 5))
+                Spacer()
+            };
             Text(appModel.portfolio.name)
                 .font(Montserrat.bold.font(size: 17))
                 .padding(.top,8)
@@ -32,7 +36,6 @@ struct HeaderView: View {
                 .padding(.top,24)
                 .lineSpacing(12)
         }
-        SkillView(skill: appModel.portfolio.skills[0])
     }
 }
 
