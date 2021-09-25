@@ -10,7 +10,7 @@ import SwiftUI
 struct SkillsView: View {
     var skills : [skills]
     var width : CGFloat
-    @State var skillIsShow = true
+    @State var skillIsShow = false
     var body: some View {
         VStack(alignment: .leading){
             HStack(spacing: 16){
@@ -31,8 +31,14 @@ struct SkillsView: View {
             {
                 LazyVGrid(columns: [GridItem(), GridItem(), GridItem()], alignment: .leading, spacing: 12){
                     ForEach(skills){ skill in
+                        NavigationLink(
+                            destination: AchievementsView(achievements: AppModel().portfolio.achievement),
+                            label: {
+                                    SkillView(skill: skill, width: (width / 3) - 15)
+                            })
                         
-                        SkillView(skill: skill, width: (width / 3) - 15);
+                           // SkillView(skill: skill, width: (width / 3) - 15)
+
                     }
                 }.padding(.top,30)}
         }.padding()

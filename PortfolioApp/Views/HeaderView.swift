@@ -24,6 +24,7 @@ struct HeaderView: View {
                 .font(Montserrat.mediumItalic.font(size: 18))
                 .opacity(0.7)
                 .padding(.top,-2)
+            
             HStack{
                 Image(systemName: "location.fill")
                     .font(.system(size: 18, weight: .semibold));

@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B003EFF26F66DD7008B8431 /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B003EFE26F66DD7008B8431 /* ProjectDetailView.swift */; };
+		3B3F4EDB26F51DD2001F2071 /* AchievemnetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F4EDA26F51DD2001F2071 /* AchievemnetView.swift */; };
+		3B3F4EDD26F51DE7001F2071 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3F4EDC26F51DE7001F2071 /* AchievementsView.swift */; };
 		3BA5282C26ED8C5800746689 /* ExpirenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5282B26ED8C5800746689 /* ExpirenceView.swift */; };
 		3BA5282E26ED8EB000746689 /* ExpirencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5282D26ED8EB000746689 /* ExpirencesView.swift */; };
 		3BA5283226EE69DB00746689 /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5283126EE69DB00746689 /* EducationView.swift */; };
 		3BA5283426EE69F100746689 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5283326EE69F100746689 /* ProjectsView.swift */; };
 		3BA5283626EE6BCD00746689 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5283526EE6BCD00746689 /* ProjectView.swift */; };
 		3BA5283C26EE7FF900746689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA5283B26EE7FF900746689 /* Assets.xcassets */; };
+		3BA5283E26EEC29800746689 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5283D26EEC29800746689 /* FooterView.swift */; };
+		3BA5284026EF7E7100746689 /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5283F26EF7E7100746689 /* CertificateView.swift */; };
+		3BA5284226EF7E8D00746689 /* CertificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA5284126EF7E8D00746689 /* CertificationsView.swift */; };
 		3BA6877926E6878D002CF86F /* PortfolioAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA6877826E6878D002CF86F /* PortfolioAppApp.swift */; };
 		3BA6877B26E6878D002CF86F /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA6877A26E6878D002CF86F /* PortfolioView.swift */; };
 		3BA6878026E6878E002CF86F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA6877F26E6878E002CF86F /* Preview Assets.xcassets */; };
@@ -35,12 +41,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B003EFE26F66DD7008B8431 /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
+		3B3F4EDA26F51DD2001F2071 /* AchievemnetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievemnetView.swift; sourceTree = "<group>"; };
+		3B3F4EDC26F51DE7001F2071 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
 		3BA5282B26ED8C5800746689 /* ExpirenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpirenceView.swift; sourceTree = "<group>"; };
 		3BA5282D26ED8EB000746689 /* ExpirencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpirencesView.swift; sourceTree = "<group>"; };
 		3BA5283126EE69DB00746689 /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
 		3BA5283326EE69F100746689 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		3BA5283526EE6BCD00746689 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
 		3BA5283B26EE7FF900746689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BA5283D26EEC29800746689 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		3BA5283F26EF7E7100746689 /* CertificateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateView.swift; sourceTree = "<group>"; };
+		3BA5284126EF7E8D00746689 /* CertificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificationsView.swift; sourceTree = "<group>"; };
 		3BA6877526E6878D002CF86F /* PortfolioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortfolioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA6877826E6878D002CF86F /* PortfolioAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioAppApp.swift; sourceTree = "<group>"; };
 		3BA6877A26E6878D002CF86F /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
@@ -144,6 +156,12 @@
 				3BA5283126EE69DB00746689 /* EducationView.swift */,
 				3BA5283326EE69F100746689 /* ProjectsView.swift */,
 				3BA5283526EE6BCD00746689 /* ProjectView.swift */,
+				3BA5283D26EEC29800746689 /* FooterView.swift */,
+				3BA5283F26EF7E7100746689 /* CertificateView.swift */,
+				3BA5284126EF7E8D00746689 /* CertificationsView.swift */,
+				3B3F4EDA26F51DD2001F2071 /* AchievemnetView.swift */,
+				3B3F4EDC26F51DE7001F2071 /* AchievementsView.swift */,
+				3B003EFE26F66DD7008B8431 /* ProjectDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -275,18 +293,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BA5282C26ED8C5800746689 /* ExpirenceView.swift in Sources */,
+				3B3F4EDD26F51DE7001F2071 /* AchievementsView.swift in Sources */,
 				3BC310B626E6F14500C97841 /* ColorExtension.swift in Sources */,
 				3BA5282E26ED8EB000746689 /* ExpirencesView.swift in Sources */,
 				3BC310BF26E6F41900C97841 /* AppModel.swift in Sources */,
 				3BA5283626EE6BCD00746689 /* ProjectView.swift in Sources */,
+				3BA5283E26EEC29800746689 /* FooterView.swift in Sources */,
+				3B003EFF26F66DD7008B8431 /* ProjectDetailView.swift in Sources */,
 				3BA6877B26E6878D002CF86F /* PortfolioView.swift in Sources */,
 				3BA5283426EE69F100746689 /* ProjectsView.swift in Sources */,
+				3BA5284226EF7E8D00746689 /* CertificationsView.swift in Sources */,
 				3BC310C526E99CBD00C97841 /* SkillsView.swift in Sources */,
 				3BC310B926E6F1BB00C97841 /* FontManager.swift in Sources */,
 				3BC310C326E70CED00C97841 /* SkillView.swift in Sources */,
 				3BA6877926E6878D002CF86F /* PortfolioAppApp.swift in Sources */,
 				3BA5283226EE69DB00746689 /* EducationView.swift in Sources */,
 				3BC310BD26E6F2BF00C97841 /* Portfolio.swift in Sources */,
+				3BA5284026EF7E7100746689 /* CertificateView.swift in Sources */,
+				3B3F4EDB26F51DD2001F2071 /* AchievemnetView.swift in Sources */,
 				3BC310C126E7098600C97841 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

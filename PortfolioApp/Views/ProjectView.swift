@@ -20,13 +20,12 @@ struct ProjectView: View {
                                     .opacity(0.65)
                                 RoundedRectangle(cornerRadius: 8)
                                     .frame(width : 3)
-                                    .padding(.leading,3);
                             }
-                            VStack{
+                            VStack(alignment:.leading){
                                 Text(projects.projectName)
-                                    .font(Montserrat.semibold.font(size: 18.5)).padding(.leading,8);
+                                    .font(Montserrat.semibold.font(size: 18.5))
                                 VStack(alignment: .leading){
-                                    Text(projects.projectName)
+                                    Text(projects.projectDesc)
                                         .font(Montserrat.mediumItalic.font(size: 16))
                                         .opacity(0.45)
                                         .padding(.top,14);
@@ -38,9 +37,18 @@ struct ProjectView: View {
             }.fixedSize()
             Spacer()
             VStack{
-                Image(projects.image)
-                    .resizable()
-                    .frame(width: 70, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    NavigationLink(
+                        destination: ProjectDetailView(project: projects.projectsDetails[0]),
+                        label: {
+                            Image(projects.image)
+                                .resizable()
+                                .frame(width: 70, height: 70, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        })
+
+                })
+                
+                
             }
         }
     }

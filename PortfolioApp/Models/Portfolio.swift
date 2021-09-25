@@ -11,14 +11,28 @@ struct skills : Identifiable {
     var id : String
     let skillName : String
     let image : String
+   // let skillsDetails : [skillsDetails]
 }
-//
-//struct skillsDetails : Identifiable{
-//    var id : String
-//    let name : String
-//    let image : String
-//    let details : String
-//}
+
+struct skillsDetails : Identifiable{
+    var id : String
+    let name : String
+    let image : [String]
+    let details : String
+}
+
+struct Achievement : Identifiable{
+    var id : String
+    var tech : String
+    var desc : String
+}
+
+struct Certificates : Identifiable{
+    var id : String
+    let certiName : String
+    let CompanyName : String
+    let duration : String
+}
 
 struct Projects : Identifiable {
     var id : String
@@ -31,6 +45,8 @@ struct Projects : Identifiable {
 struct ProjectDetails : Identifiable {
     let id : String
     var desc : String
+    let tech : [String]
+    let image : [String]
 }
 
 struct Experience : Identifiable {
@@ -48,4 +64,6 @@ struct Portfolio{
     let projects : [Projects]
     let skills : [skills]
     let experience : [Experience]
+    let certificates : [Certificates]
+    let achievement : [Achievement]
 }
